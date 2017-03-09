@@ -1,0 +1,23 @@
+body
+{
+background-color:white;
+font-family:"helvetica";
+font-size:22px;
+}
+
+.Contact-us {  
+	margin: auto;
+    width: 50%;
+ }
+.Contact {
+	text-align: center;
+	 padding: 40px 0;
+}
+
+.form-group {
+	text-align: center;
+}
+
+
+.center { 
+   

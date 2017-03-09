@@ -1,0 +1,27 @@
+body
+{
+background-color:#cce6ff;
+font-family:"helvetica";
+font-size:22px;
+}
+
+.Contact-us {
+	margin: auto;
+    width: 50%;
+ }
+.Contact {
+	text-align: center;
+	 padding: 40px 0;
+}
+
+.form-group {
+	text-align: center;
+}
+
+.carousel-inner img {
+  width: 50%;
+  height: 30em;
+  object-fit: cover;
+  overflow: hidden;
+	margin: auto;
+}
