@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PeaceFinder</title>
+    <link rel="stylesheet" href="main.css">
+    <title>PeaceFinder - homepage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+
+<!-- Navbar -->
+ <style>
+    body {
+      text-align: center;
+   
+      color: black;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+  </style>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">PeaceFinder: London</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">home</a></li>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">map</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+      
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>SOAS Japanese Garden</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 51.522347, lng: -0.129260};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom:17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfef9QGG3P2U4zooQwXVfZHKDUrIRoSao&callback=initMap">
+    </script>
+
+
+
+  </body>
+</html>
+
+
