@@ -2,7 +2,7 @@ body
 {
 background-color:#cce6ff;
 font-family:"helvetica";
-font-size:22px;
+font-size:18px;
 }
 
 .Contact-us {
@@ -20,8 +20,13 @@ font-size:22px;
 
 .carousel-inner img {
   width: 50%;
-  height: 30em;
+	height: 20em;
   object-fit: cover;
   overflow: hidden;
 	margin: auto;
+}
+
+.carousel-inner > .item > img {
+	width: 640px;
+	height: 360px;
 }
