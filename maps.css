@@ -1,0 +1,34 @@
+body 
+
+{
+background-color:white;
+font-family:"helvetica";
+font-size:22px;
+}
+
+.Address {
+	text-align: left;
+	font-family: "helvetica"
+	font-size: 22px;
+}
+
+.Location {
+text-align: left;
+font-family: "helvetica"
+	font-size: 22px;
+}
+
+
+.Features { 
+text-align: left;
+font-family: "helvetica"
+	font-size: 22px;
+}
+ 
+
+ .Rating { 
+ text-align: left;
+font-family: "helvetica"
+	font-size: 22px;
+}
+  

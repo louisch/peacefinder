@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PeaceFinder</title>
+    <link rel="stylesheet" href="main.css">
+    <title>PeaceFinder - homepage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+
+<!-- Navbar -->
+ <style>
+    body {
+      text-align: center;
+   
+      color: black;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+  </style>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">PeaceFinder: London</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">home</a></li>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">map</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+      
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>Dillon's Coffee Waterstones</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 51.522400, lng: -0.132335};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom:17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfef9QGG3P2U4zooQwXVfZHKDUrIRoSao&callback=initMap">
+    </script>
+
+
+<head>
+  <link rel="stylesheet" type="text/css" href="Maps.css">
+
+<form class="SOAS-japanese-roof-garden">
+<link rel="stylesheet" type="text/css" href="Maps.css">
+
+<div class="Address">
+<label for="Address"> Address: </label>
+<text> 
+Dillon's Coffee Waterstones, Ground Floor, Waterstones, 82 Gower St 
+London 
+WC1E 6EQ 
+
+</text>
+</div>
+
+<div class="Location">
+<label for="Location"> Location: </label>
+<text> 2 minute walk from UCL - Bloomsbury campus</text>
+</div>
+
+<div class="Features">
+<label for="Features"> Features: </label>
+<text> Perfect location to read a book and have a coffee. Try out their white hot chocolate! 
+</text>
+</div>
+
+<div class="Rating">
+<label for="Rating"> Rating: </label>
+<text> 4/5 Surrounded by books is the perfect location, however the cafe is quite pricey. 
+</text>
+</div>
+
+
+</form> 
+
+<img src="http://media.timeout.com/blogimages/wp-content/uploads/2014/07/SOAS-japanese-roof-garden.jpg" 
+alt="http://media.timeout.com" style="width:304px;height:250px;">
+
+</head>
+ 
+</body>
+</html>
+
+  </body>
+</html>
+
